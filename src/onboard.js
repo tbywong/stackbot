@@ -1,7 +1,13 @@
 const qs = require('querystring');
 const axios = require('axios');
 
-const postResult = result => console.log(result.data);
+const postResult = (result) => {
+  if (process.env.APP_ENV === 'dev') {
+    console.log(result.data);
+  } else {
+    console.log(`Welcomed User #${result.data.message.user} to the organization`);
+  }
+}
 
 const message = {
   token: process.env.SLACK_TOKEN,
