@@ -1,0 +1,20 @@
+{
+  "welcome": {
+    "attachments": [
+      {
+        "color": "#7CB6D1",
+        "text": "1) Must be out of college minimum 1 year. \n2) Must follow naming convention for display name: “First Last [Lv#]” \n3)Must add professional title to your profile.",
+        "title": "HOUSE RULES:"
+      },
+      {
+        "color": "#7CD197",
+        "text": "1) Click on “Channels” to the left side bar. \n2) Scroll through, join any channel that excites you. \n3) If there isn’t a space that you are looking for, create it yourself! (Please create a “Private” channel for a space that does not apply to the larger MS group.) \n4) Jump in, ask questions, give tips, send gifs, connect, connect, connect. :heart:",
+        "title": "HOW TO GET STARTED:"
+      }
+    ],
+    "text": "Hello! Welcome to the Stacks-Slack, also known as \"401stacKs\", a resource and space for Main Stacks graduates to discuss work, career opportunities, and overall life tips. We may have finished dancing together, but we’re not done yet."
+  },
+  "responses": {
+    "slash_intro": "Thanks for playing with an experimental feature! Your response was not saved. \nIf you have any questions, post them in #dev"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "intro": {
+    "elements": [
+      {
+        "label": "What is your name?",
+        "name": "user_name",
+        "type": "text"
+      },
+      {
+        "label": "What level are you?",
+        "name": "user_level",
+        "type": "text"
+      }
+    ],
+    "submit_label": "Submit",
+    "title": "Introduce yourself!"
+  }
+}
