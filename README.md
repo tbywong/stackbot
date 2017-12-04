@@ -1,4 +1,4 @@
-# stackbot
+# StackBot 🤖 [![Build Status](https://travis-ci.org/tbywong/stackbot.svg?branch=master)](https://travis-ci.org/tbywong/stackbot)
 A friendly bot for the 401[stac]Ks Slack organization
 
 ### Development
