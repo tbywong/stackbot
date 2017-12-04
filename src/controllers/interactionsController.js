@@ -1,7 +1,7 @@
 const messages = require('../../lib/json/messages');
 const SlackApi = require('../../lib/helpers/SlackApi');
 
-function InteractionsController(request, response) {
+function InteractionsController (request, response) {
   const payload = JSON.parse(request.body.payload);
 
   if (payload && payload.token === process.env.SLACK_VERIFICATION_TOKEN) {

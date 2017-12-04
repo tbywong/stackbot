@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha test/**/*.test.js",
     "start": "node src/index.js",
-    "start-dev": "nodemon src/index.js"
+    "start-dev": "nodemon src/index.js",
+    "lint": "eslint -c .eslintrc .; exit 0"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "body-parser": "^1.17.1",
     "chai": "^4.1.2",
     "dotenv": "^4.0.0",
+    "eslint": "^4.12.1",
     "express": "^4.15.2",
     "mocha": "^4.0.1",
     "nodemon": "^1.12.1"

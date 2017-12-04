@@ -1,7 +1,7 @@
 const messages = require('../../lib/json/messages');
 const SlackApi = require('../../lib/helpers/SlackApi');
 
-function EventsController(request, response) {
+function EventsController (request, response) {
   switch (request.body.type) {
     case 'url_verification': {
       response.send({ challenge: request.body.challenge });
@@ -11,6 +11,7 @@ function EventsController(request, response) {
 
     case 'event_callback': {
       if (request.body.token === process.env.SLACK_VERIFICATION_TOKEN) {
+
         // `team_join` is fired whenever a new user (incl. a bot) joins the team
         // check if `event.is_restricted == true` to limit to guest accounts
         if (event.type === 'team_join' && !event.is_bot) {
@@ -29,7 +30,7 @@ function EventsController(request, response) {
   }
 }
 
-function teamJoinEvent() {
+function teamJoinEvent () {
   const event = request.body.event;
   const userId = event.user.id;
   const body = {
